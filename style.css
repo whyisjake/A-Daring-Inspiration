@@ -4,7 +4,7 @@ Theme URI: http://jakespurlock.com/inspiration
 Description: A left sidebar theme basked with simplicity.
 Author: whyisjake
 Author URI: http://jakespurlock.com
-version: 0.5.5
+version: 0.5.6
 Tags: two-columns, sticky-post, dark
 
 Based on the blank theme by Refuled.net
@@ -19,7 +19,8 @@ Based on the blank theme by Refuled.net
 0.5.2 Fixed tags, uploaded to WordPress.org
 0.5.3 Added comments to pages, and some letter-spacing to the sidebar.
 0.5.4 Changed the way the authors name was pulled into the sidebar, making it dynamic to the author of the last post. Changed some the headers in the sidebar, and fixed a rogue span.says issue. Also added some letter-spacing to the header.
-0.5.5 Added the GPL License. 
+0.5.5 Added the GPL License.
+0.5.6 Move to Github, update a few things.
 
 */
 
@@ -34,27 +35,27 @@ body {
 	font-size: 8pt;
 	margin:20px;
 	}
-	
+
 h1 {
 	font-size: 18pt;
 	color:#ddd;
 	}
-	
+
 h2 {
 	font-size: 14pt;
 	color:#ddd;
 	}
-	
+
 h3 {
 	font-size: 9pt;
 	color:#ddd;
 	}
-	
+
 h4 {
 	font-size: 9pt;
 	color:#ddd;
 	}
-	
+
 h5 {
 	font-size: 9pt;
 	color:#ddd;
@@ -107,28 +108,28 @@ a:hover{
 	color:#333;
 	overflow: hidden;
 	}
-	
+
 /* header */
 
 #header {
 	background:#4a525a;
-  	width: 760px; 
+  	width: 760px;
   	height: 145px;
-	color: #fff; 
+	color: #fff;
 	}
 
 #header h1{
 	font:normal 20pt Gill Sans, Helvetica, Verdana, sans serif;
 	padding:50px 0 0 25px;
 	letter-spacing:2px;
-	margin:0;	
+	margin:0;
 	}
-	
+
 #header h1 a{
 	color: #dddddd;
 	text-decoration: none;
 	}
-	
+
 #header h1 a:hover{
 	color: #fff;
 	text-decoration: none;
@@ -140,7 +141,7 @@ a:hover{
 	letter-spacing:2px;
 	color:#dddddd;
 	padding: 0 0 0 25px;
-	margin:0;	
+	margin:0;
 	}
 
 /* main menu */
@@ -150,7 +151,7 @@ a:hover{
 	background:#4a525a;
 	font-family: Gill Sans, verdana, arial, times, serif;
 	font-size: 8pt;
-	width:760px; 
+	width:760px;
 	overflow:hidden;
 }
 
@@ -188,34 +189,34 @@ a:hover{
 	float: right;
 	width:530px;
 	overflow: hidden;
-	
+
 	margin-top:0px;
 	margin-left:14px;
 	margin-right:14px;
 	margin-bottom:14px;
-	}	
+	}
 
 .post {
 	padding-bottom:25px;
 	line-height: 9px;
 	}
-	
+
 .post h2{
 	font:normal 9pt Verdana, Helvetica, Ariel, sans serif;
 	color:#ddd;
 	}
-	
+
 .post h2 a{
 	color: #ddd;
-	border-bottom: 1px dotted #64686c; 
+	border-bottom: 1px dotted #64686c;
 	}
-	
+
 .post h2 a:hover{
 	color: #ddd;
 	text-decoration: none;
 	background-color:#606870;
 	}
-	
+
 .post h5{
 	font:normal 8pt Verdana, Helvetica, Ariel, sans serif;
 	color:#ddd;
@@ -237,7 +238,7 @@ a:hover{
 	margin: 0;
 	padding: 8px 0;
 	}
-	
+
 .entry ol li li {
 	color:#ddd;
 	margin: 0;
@@ -294,7 +295,7 @@ a:hover{
 	margin: 25px 0;
 	color:#ddd;
 	}
-	
+
 small{
 	line-height: 14pt;
 	}
@@ -307,7 +308,7 @@ small{
 	padding:0;
 	overflow:hidden;
 	}
-	
+
 .alignleft a{float:left; margin:25px 0;}
 .alignright a{float:right; margin:25px 0;}
 
@@ -324,12 +325,12 @@ small{
 	padding: 0;
 	letter-spacing:	2px;
 	text-align:right;
-	color: #ddd;	
+	color: #ddd;
 	}
 
 #sidebar h2{
 	font:normal 11pt Gill Sans, Helvetica, arial;
-	color: #fff;	
+	color: #fff;
 	margin: 0;
 	padding-bottom: 5px;
 	text-align:right;
@@ -349,7 +350,7 @@ small{
 
 #sidebar label{
 	font:normal 11pt Gill Sans, Helvetica, arial;
-	color: #ddd;	
+	color: #ddd;
 	margin: 0;
 	padding: 0;
 }
@@ -364,7 +365,7 @@ small{
 	margin:0;
 	padding:0;
 	color: #ddd;
-	border-bottom: 1px dotted #64686c !important; 
+	border-bottom: 1px dotted #64686c !important;
 	text-transform:none !important;
 	}
 
@@ -415,7 +416,7 @@ small{
 	list-style-type: none;
 	color: #ddd;
 	}
-	
+
 #sidebar ul ul ul li {
 	margin: 0;
 	padding: 0;
@@ -423,7 +424,7 @@ small{
 	list-style-type: none;
 	color: #ddd;
 	}
-	
+
 
 #sidebar ul ul {
 	color: #ddd;
@@ -439,7 +440,7 @@ small{
 #sidebar ul ul ul{
 	margin: 0;
 	padding: 0;
-	color: #ddd;	
+	color: #ddd;
 }
 
 #sidebar ul ul ul li{
@@ -458,18 +459,18 @@ small{
 	margin:0;
 	padding:0;
 	}
-	
+
 #commentform p{
 	color: #ddd;
 	}
-	
+
 #commentform a{
 	color: #ddd;
 	text-decoration: none;
 	border-bottom: 1px dotted #465D71;
 	line-height: 14pt;
 	}
-	
+
 #commentform h3{
 	font-family: georgia, times, verdana;
 	font-size: 10pt;
@@ -478,7 +479,7 @@ small{
 	margin:0;
 	padding:0;
 	}
-	
+
 #comment{
 	width:80%;
 	}
@@ -491,27 +492,27 @@ small{
 	padding:0;
 	border: 1px solid #000;
 	}
-	
+
 #submit{margin:5px 5px 0 0;}
 
 #comments{
 	margin:0;
-	padding:0
+	padding:0;
 	color:#ddd;
 	}
-	
-	
+
+
 .comments h3 {
 	color:#ddd;
 	}
-	
+
 ol.commentlist {
 	list-style-type: none;
 	margin:0; padding:0;
 	}
 
 
-	
+
 .avatar{
 	float:left;
 	margin:0 12px 0 0;
@@ -542,7 +543,7 @@ cite {
 	font-weight: bold;
 	font-style: normal;
 	}
-	
+
 cite a{color: #000; text-decoration: none; border-bottom: 1px dotted #465D71;}
 
 
@@ -563,32 +564,32 @@ span.says {
 	border:1px solid #ddd;
 	}
 
-	
-	
+
+
 /* misc */
 
 
 img.centered {
 
 	display: block;
-	
+
 	margin-left: auto;
-	
+
 	margin-right: auto;
-	
+
 	}
 
 
-	
+
 img.alignright {
 	padding: 4px;
-	
+
 	margin: 0 0 2px 7px;
-	
+
 	display: inline;
-	
+
 	}
-	
+
 img.alignleft {
 	padding:4px;
 	margin: 0 7px 2px 0;
@@ -611,26 +612,26 @@ img.alignleft {
 	background-color: #4a525a;
 	padding-top: 4px;
 	margin: 10px;
-   
+
 	/* optional rounded corners for browsers that support it */
-  
+
 	-moz-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	}
-	
+
 .wp-caption img {
 	margin: 0;
-   
+
 	padding: 0;
-   
+
 	border: 0 none;
 
 	}
 
 
-	
+
 .wp-caption p.wp-caption-text {
 	font-size: 11px;
 	line-height: 17px;
@@ -649,7 +650,7 @@ img.alignleft {
 	clear: both;
 	width: 100%;
 	}
-	
+
 #footer p{padding:14px 0;margin: 0; color: #eee; text-align:center;}
 #footer a{color: #ddd;text-decoration: none;}
 #footer a:hover{color: #ddd;text-decoration: underline;}
@@ -657,7 +658,7 @@ img.alignleft {
 .small {
 	color:#ddd;
 	}
-	
+
 #adBlock {
 	padding-top:200px;
 	margin-right:0 !important;
@@ -666,7 +667,7 @@ img.alignleft {
 #adblock p {
 	margin-right:-10 !important;
 	}
-	
+
 .aligncenter {
 	display: block;
 	margin-left: auto;
